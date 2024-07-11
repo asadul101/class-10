@@ -23,6 +23,11 @@ a{
     width: 1320px;
     margin: 0 auto;
 }
+.asad{
+    font-size: 70px;
+    font-weight: 800;
+    transform: -50%;
+}
 /* -------- common css end------- */
 
 /* ========== navbar start========== */
@@ -322,7 +327,66 @@ a{
 
 }
 /* ----------------------- Fashion part End---------------------------- */
-
+/* ============================= Footer part start========================== */
+#seller{
+    background-color: #CFA485;
+    height: 828px;
+    width: 1320px;
+    margin: 0 auto;
+}
+.container{
+    margin-top: 96px;
+}
+.best-seller_row{
+    width: 457px;
+    height: 601px;
+    padding-left: 134px;
+    padding-top: 35px;
+   padding-bottom: 192px;
+}
+.best-seller_row .best-seller h2{
+    width:315px;
+    height:162px;
+    font-size: 64px;
+    font-weight:700;
+    margin-left: 20px;
+    font-family: "Frank Ruhl Libre", serif;
+    color: #fff;
+}
+.best-seller_row .best-seller p{
+    width:437px;
+    height: 270px;
+    font-size:24px;
+    margin-left: 20px;
+    margin-top: 43px;
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-family: "Frank Ruhl Libre", serif;
+    color: #fff;
+    
+}
+.footer-btn a{
+    width: 319px;
+    height: 86px;
+    background-color: #000;
+    border-radius: 10px;
+    line-height: 86px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    transition: all linear;
+}
+.footer-btn a:active{
+    transform: scale(1.1);
+}
+.footer-btn a:hover{
+    transition: all linear .3s;
+    color: #000;
+    background-color: #c44a35;
+}
+/* --------------------------------Footer part End---------------------------- */
 /* 
 git init
 git add README.md
