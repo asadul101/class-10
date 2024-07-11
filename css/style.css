@@ -154,7 +154,6 @@ a{
     display: flex;
     gap: 115px;
     margin-top: 41px;
-    margin-bottom: 40px;
 
 }
 /* ------Sweeter----- */
@@ -328,21 +327,28 @@ a{
 }
 /* ----------------------- Fashion part End---------------------------- */
 /* ============================= Footer part start========================== */
-#seller{
-    background-color: #CFA485;
-    height: 828px;
-    width: 1320px;
-    margin: 0 auto;
+.container_footer{
+   
+   
 }
-.container{
-    margin-top: 96px;
+#seller{
+    width: 100%;
+    margin-top: 96px; 
+    background-color: #CFA485;
 }
 .best-seller_row{
-    width: 457px;
-    height: 601px;
+    width: 1440px;
     padding-left: 134px;
+    margin: 0 auto;
     padding-top: 35px;
    padding-bottom: 192px;
+}
+.best-seller_row{
+    display: flex;
+    justify-content: space-between;
+}
+.best-seller{
+    width: 457px;
 }
 .best-seller_row .best-seller h2{
     width:315px;
@@ -365,7 +371,7 @@ a{
     color: #fff;
     
 }
-.footer-btn a{
+.best-seller a{
     width: 319px;
     height: 86px;
     background-color: #000;
@@ -378,13 +384,57 @@ a{
     color: #fff;
     transition: all linear;
 }
-.footer-btn a:active{
+.best-seller a:active{
     transform: scale(1.1);
 }
-.footer-btn a:hover{
+.best-seller a:hover{
     transition: all linear .3s;
     color: #000;
     background-color: #c44a35;
+}
+/* .best-seller_row{
+    display: flex;
+    justify-content: space-between;
+} */
+.footer_card{
+display: flex;
+gap: 31px;
+}
+.single_footer_card{
+    width:366px ;
+    background-color: #fff;
+    border-top-right-radius: 55px;
+    border-top-left-radius: 58px;
+}
+.single_footer_icons{
+    padding-left: 18px;
+    padding-bottom: 9px;
+}
+.single_footer_icons ul{
+    display: flex;
+    gap: 8px;
+    margin-top: 24px;
+    margin-bottom: 11px;
+}
+.single_footer_icons ul li{
+    color: #FFAF37;
+}
+.single_footer_icons h2{
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #000;
+    margin-bottom: 9px;
+}
+.single_footer_icons h4{
+    font-size:24px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #000;
+}
+.single_footer_icons h4 span{
+    color: #C4C4C4;
+    margin-right: 31px;
 }
 /* --------------------------------Footer part End---------------------------- */
 /* 
